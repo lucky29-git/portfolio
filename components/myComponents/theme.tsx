@@ -6,12 +6,15 @@ import React from "react"
 
 export default function ThemeToggle(){
     const [isDarkMode, setIsDarkMode] = useState(() => {
-        if (typeof window !== 'undefined') {
+        if (typeof window !== "undefined") {
             const savedTheme = localStorage.getItem("theme");
-            return savedTheme === "dark";
+            if (savedTheme) {
+                return savedTheme === "dark";
+            }
+            return true; // Default to dark mode
         }
-        return true; 
-    })
+        return true; // Fallback for server-side rendering
+    });
 
     useEffect(() => {
          if (typeof window !== 'undefined') {
