@@ -6,7 +6,7 @@ import React from "react"
 
 
 export default function ThemeToggle(){
-    const [isDarkMode, setIsDarkMode] = useState(false)
+    const [isDarkMode, setIsDarkMode] = useState(true)
     const root = document.documentElement;
 
     useEffect(() => {
