@@ -3,8 +3,6 @@ import HomeComponent from "@/components/myComponents/home";
 import Projects from "@/components/myComponents/projects";
 import ThemeToggle from "@/components/myComponents/theme";
 import Footer from "@/components/myComponents/footer";
-import Navbar from "@/components/myComponents/navbar";
-import { AuroraBackground } from "@/components/ui/aurora-background";
 import Education from "@/components/myComponents/education";
 import Skills from "@/components/myComponents/skills";
 import Contact from "@/components/myComponents/contact";
