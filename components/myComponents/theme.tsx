@@ -1,5 +1,4 @@
 "use client"
-import { div } from "framer-motion/client";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 import React from "react"

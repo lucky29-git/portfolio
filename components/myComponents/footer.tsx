@@ -1,6 +1,6 @@
 import { GearIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { FloatingDock } from "../ui/floating-dock";
-import { GraduationCap, HouseIcon, MoonIcon, SquareChevronRightIcon } from "lucide-react"
+import { CircleUser, GraduationCap, HouseIcon, MoonIcon, SquareChevronRightIcon } from "lucide-react"
 const item = [
     {
         title: "Home",
@@ -21,6 +21,11 @@ const item = [
         title: "Skills",
         icon: <GearIcon/>,
         href: "#skills"
+    },
+    {
+        title: "Contact",
+        icon: <CircleUser/>,
+        href: "#contact"
     },
     {
         title: "LinkedIn",

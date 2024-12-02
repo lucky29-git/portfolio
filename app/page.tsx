@@ -26,7 +26,7 @@ export default function Home() {
         <div className="pt-10" id="skills">
             <Skills />
         </div>
-        <div className="pt-10" id="skills">
+        <div className="pt-10" id="contact">
             <Contact />
         </div>
         <div className="flex justify-center">
