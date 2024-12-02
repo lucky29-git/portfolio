@@ -6,6 +6,7 @@ import Footer from "@/components/myComponents/footer";
 import Navbar from "@/components/myComponents/navbar";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Education from "@/components/myComponents/education";
+import Skills from "@/components/myComponents/skills";
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
         <div className="pt-10" id="education">
             <Education />
         </div>
-        
+        <div className="pt-10" id="skills">
+            <Skills />
+        </div>
         <div className="flex justify-center">
           <Footer/>
         </div>   
