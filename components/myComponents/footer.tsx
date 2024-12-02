@@ -15,7 +15,7 @@ const item = [
     {
         title: "Skills",
         icon: <GearIcon/>,
-        href: "#skills"
+        href: "#education"
     },
     {
         title: "LinkedIn",

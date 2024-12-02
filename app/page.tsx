@@ -4,16 +4,24 @@ import Projects from "@/components/myComponents/projects";
 import ThemeToggle from "@/components/myComponents/theme";
 import Footer from "@/components/myComponents/footer";
 import Navbar from "@/components/myComponents/navbar";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+import Education from "@/components/myComponents/education";
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto px-4 ">
-        <div className="h-screen">
+    <div className="max-w-4xl mx-auto px-4">
+        <div className="h-screen" id="home">
           <HomeComponent/>
         </div>
-        <div>
-          <Projects/>
+        <div className="pt-10" id="projects">
+          {/* <AuroraBackground showRadialGradient={true} > */}
+            <Projects />
+          {/* </AuroraBackground> */}
         </div>
+        <div className="pt-10" id="education">
+            <Education />
+        </div>
+        
         <div className="flex justify-center">
           <Footer/>
         </div>   

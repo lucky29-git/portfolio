@@ -1,9 +1,24 @@
 import { div } from "framer-motion/client";
+import { TracingBeam } from "../ui/tracing-beam";
+import ProjectCards from "./projectCards";
 
 
 export default function Projects(){
 
-    return <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repudiandae explicabo deserunt exercitationem possimus alias, cupiditate voluptatem porro hic recusandae maiores minima rerum, quasi, iste nihil quo laborum sit quod nesciunt placeat sed sapiente repellendus ea temporibus. Sapiente quia, nihil molestiae blanditiis excepturi pariatur rem voluptatum iste asperiores, facere ratione eligendi quidem in atque veritatis temporibus qui aliquid eum beatae. A, quisquam ratione quae eligendi ab, possimus deserunt atque saepe delectus rerum sint error est, corrupti dolores voluptatum iste iusto illo. Laboriosam porro dicta impedit nostrum culpa quis ducimus libero deleniti, architecto enim deserunt expedita nam excepturi voluptate laborum molestias nemo quaerat velit tenetur amet ipsum tempora exercitationem. Rem ullam eum iste asperiores, repellat est recusandae delectus quisquam adipisci ea dicta, voluptates vero amet natus reiciendis exercitationem ad consectetur nulla fugiat commodi dolor itaque eligendi eaque. Odit vero officia architecto, inventore laudantium repellat quia quae hic eos! Quia ducimus aperiam odit. Doloribus alias suscipit delectus veritatis, illum laudantium, iste sapiente minima possimus nam inventore, enim repellendus necessitatibus deleniti adipisci tenetur esse a assumenda quidem saepe ullam. Quas expedita distinctio odit hic, illo eum fugit eligendi ut. Velit cumque temporibus nam laborum autem placeat rem, mollitia necessitatibus expedita obcaecati quo in facilis fugiat repudiandae incidunt perferendis id, corporis nihil assumenda! Voluptatem voluptate quas expedita ipsam eveniet reiciendis repudiandae cupiditate dolor velit placeat excepturi quibusdam nihil hic, sint adipisci quae esse inventore similique totam error sit laborum architecto. Delectus modi consectetur temporibus sequi magni! Voluptatem id accusantium alias beatae illum deserunt laudantium amet velit fuga veritatis assumenda exercitationem voluptate a error excepturi dolore pariatur quasi provident, nobis ex deleniti eligendi dolor aut. Ad sed quibusdam nulla maiores provident repellendus aliquid consectetur praesentium nisi illo mollitia sit reiciendis, unde non quod porro suscipit perspiciatis eum vero incidunt distinctio. Deleniti voluptatem dicta possimus est molestias officiis asperiores aspernatur labore quod eum quia totam accusantium tempore illum odit magni a, minima animi ipsum distinctio veniam commodi explicabo fuga. Animi labore alias eligendi deleniti eius, architecto, officiis, quibusdam amet quae beatae dolorum assumenda tempora dicta vitae voluptatum! Maiores commodi repudiandae odit, ab voluptatibus illo. Inventore dicta ullam velit dolores reiciendis sed consequatur nostrum consectetur possimus quaerat minima reprehenderit, odit quasi deserunt quo et, neque modi eligendi pariatur adipisci, accusantium dolorum natus nisi? Sint facilis praesentium atque natus consectetur, accusamus sapiente eaque nulla veritatis iusto repellat officiis optio quisquam, quae labore culpa hic nobis, eveniet reprehenderit dignissimos? Explicabo temporibus tempora dignissimos eius dolores vel sed, facilis mollitia vitae nobis alias nesciunt illo magnam numquam molestiae necessitatibus unde qui perspiciatis quas inventore quis reprehenderit, accusantium sint atque. In quibusdam dolor aperiam maiores laborum obcaecati sunt quia vero repellat eveniet sit cumque sapiente provident, nemo quas harum tempora blanditiis illo corporis accusantium qui porro doloribus itaque. Qui optio unde, praesentium quo nemo totam aspernatur perferendis repellendus enim commodi neque maiores earum! Similique ut magni quis quisquam dolore ducimus quod eligendi odio porro, error sequi nihil vitae consequuntur assumenda dolorum ipsum, ea, incidunt consectetur commodi! Officia tempora expedita quod explicabo.
+    return <div className="flex flex-col">
+        <div className="flex  justify-center">
+            <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                My Projects
+            </button>
+        </div>
+        <div className="font-bold text-4xl text-center pt-4">
+            Check out my latest work 
+        </div>
+        <div className="font-light text-xl text-gray-500 pt-4 px-4 text-center">
+            I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
+        </div>
+        <TracingBeam>
+            <ProjectCards/>
+        </TracingBeam>
     </div>
 }
