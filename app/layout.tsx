@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { Poppins } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -37,6 +39,8 @@ export default function RootLayout({
       >
         {/* <BackgroundLines> */}
         {children}
+        <Analytics/>
+        <SpeedInsights/>
         {/* </BackgroundLines> */}
       </body>
     </html>

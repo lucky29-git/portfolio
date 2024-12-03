@@ -16,7 +16,7 @@ export default function Skills(){
         <ButtonSkills  title="ExpressJs"/>
         <ButtonSkills  title="NodeJs"/>
         <ButtonSkills  title="PostgreSQL"/>
-        <ButtonSkills  title="MonogDB"/>
+        <ButtonSkills  title="MongoDB"/>
     </div>
     <div className="flex gap-2 pt-4 justify-evenly">
         <ButtonSkills  title="Prisma"/>

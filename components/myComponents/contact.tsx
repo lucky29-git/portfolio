@@ -23,7 +23,9 @@ export default function Contact(){
         <ButtonSocials title="Github" path="https://github.com/lucky29-git" />
         <ButtonSocials title="Mail" path="mailto:chandrashekharchoudha@gmail.com?subject=Hey Chandrashekhar&body=Hi there!" />
     </div>
-    
+    <div className="flex justify-center pt-16">
+        Crafted with ❤️ by @Chandrashekhar | All rights reserved.
+    </div>
     
 </div>
 }
