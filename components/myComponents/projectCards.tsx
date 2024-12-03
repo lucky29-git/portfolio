@@ -6,7 +6,7 @@ import CardDemo3, { CardDescription, CardSkeletonContainer, CardTitle } from "..
 export default function ProjectCards(){
 
     return <div>
-            <div className="grid grid-cols-2 gap-8 pt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-6">
                 <CardDemo3 img_path="/images/payzap.png" title="PayZap" date="Nov 2024" website_path="/notDeployed" code_path="https://github.com/lucky29-git/PayZap"
                     description= "A quick and secure payment application designed to make your daily transactions effortless with key features like Digital Wallet, P2P Transfers (Send money to someone instantly), Transaction Management." /> 
 
